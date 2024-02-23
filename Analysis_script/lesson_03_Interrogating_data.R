@@ -9,7 +9,7 @@
 
 library(ggplot2)
 
-filename <- "Lesson-03/Encode_HMM_data.txt"
+filename <- "Analysis_script/Encode_HMM_data.txt"
 
 # Select a file and read the data into a data-frame
 my_data <- read.csv(filename, sep="\t", header=FALSE)
