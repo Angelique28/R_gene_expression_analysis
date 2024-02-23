@@ -11,7 +11,7 @@
 	
 
 
-filename <- "Lesson-02/micro_array_results_table1.txt"
+filename <- "Analysis_script/micro_array_results_table1.txt"
 
 micro_array_data <- read.csv(filename, sep="\t", header=TRUE)
 head(micro_array_data)
@@ -24,19 +24,19 @@ head(micro_array_data)
 # ENCODE -- HMM: wgEncodeBroadHmmGm12878HMM.bed
 
 
-genes <- read.csv("Lesson-02/RefSeq_Genes.txt", sep="\t", header=TRUE)
+genes <- read.csv("Analysis_script/RefSeq_Genes.txt", sep="\t", header=TRUE)
 head(genes)
 dim(genes)
 
 
 
-regulatory_features <- read.csv("Lesson-02/RegulatoryFeatures_MultiCell.gff", sep="\t", header=FALSE)
+regulatory_features <- read.csv("Analysis_script/RegulatoryFeatures_MultiCell.gff", sep="\t", header=FALSE)
 head(regulatory_features)
 dim(regulatory_features)
 
 
 
-chromHMM <- read.csv("Lesson-02/wgEncodeBroadHmmGm12878HMM.bed", sep="\t", header=FALSE)
+chromHMM <- read.csv("Analysis_script/wgEncodeBroadHmmGm12878HMM.bed", sep="\t", header=FALSE)
 head(chromHMM)
 dim(chromHMM)
 
