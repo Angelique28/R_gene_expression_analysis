@@ -13,19 +13,19 @@
 
 
 # Gene lists for Venn Diagram
-listA <- read.csv("Lesson-06/genes_list_A.txt",header=FALSE)
+listA <- read.csv("Analysis_script/genes_list_A.txt",header=FALSE)
 A <- listA$V1
 A
 
-listB <- read.csv("Lesson-06/genes_list_B.txt",header=FALSE)
+listB <- read.csv("Analysis_script/genes_list_B.txt",header=FALSE)
 B <- listB$V1
 B
 
-listC <- read.csv("Lesson-06/genes_list_C.txt",header=FALSE)
+listC <- read.csv("Analysis_script/genes_list_C.txt",header=FALSE)
 C <- listC$V1
 C
 
-listD <- read.csv("Lesson-06/genes_list_D.txt",header=FALSE)
+listD <- read.csv("Analysis_script/genes_list_D.txt",header=FALSE)
 D <- listD$V1
 D
 
