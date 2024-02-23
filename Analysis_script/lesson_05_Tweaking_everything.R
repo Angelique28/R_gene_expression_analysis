@@ -13,7 +13,7 @@
 
 library(ggplot2)
 
-filename <- "Lesson-05/Encode_HMM_data.txt"
+filename <- "Analysis_script/Encode_HMM_data.txt"
 my_data <- read.csv(filename, sep="\t", header=FALSE)
 names(my_data)[1:4] <- c("chrom","start","stop","type")
 
