@@ -1,2 +1,2 @@
 # R_gene_expression_analysis
-Scripts and gene expression data plotting in R
+Scripts for gene expression data visualisation in R
